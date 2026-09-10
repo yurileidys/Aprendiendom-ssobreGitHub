@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(173, 188, 236);
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://media.istockphoto.com/id/2225942962/es/foto/islandia-la-monta%C3%B1a-vestrahorn-se-refleja-en-la-playa-de-stokksnes-durante-el-atardecer-azul.jpg?s=612x612&w=0&k=20&c=nRjYvHVquyM85N-fNxyqXG_rXYxVMd4whUUlIRFduJM=);
+    background-size: cover;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hola {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 900px;
+    height: 300px;
+    margin: 100px;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block; 
+
+}
+
+.hola h1{
+    text-decoration:underline;
+}
+.hola4{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.otrotexto{
+    background-color: aliceblue;
+    align-content: center;
+    text-align: center;
+    width: 900px;
+    border-style:dashed;
+    border-radius: 70px;
+    border-color: blue;
+}
+
+.otrotexto p{
+    font-style:italic;
+    
+}
+.otrotexto li{
+    text-transform: uppercase;
+    
+}
