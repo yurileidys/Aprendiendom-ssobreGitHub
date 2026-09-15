@@ -15,12 +15,14 @@ boton.addEventListener("click", function() {
     alert (":)")
 });
 
-var boton = document.getElementById("btncolor");
 
-boton.addEventListener("click", function() {
-    boton.classList.toggle("click");
+
+
+var botonColor = document.getElementById("btncolor");
+
+botonColor.addEventListener("click", function() {
+    botonColor.classList.toggle("click");
 });
-
 
 
 
