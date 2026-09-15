@@ -20,3 +20,14 @@ var boton = document.getElementById("btncolor");
 boton.addEventListener("click", function() {
     boton.classList.toggle("click");
 });
+
+
+
+
+var boton = document.getElementById("btnimg");
+
+boton.addEventListener("click", function() {
+
+    document.getElementById("img").innerHTML = '<img src="img/image.png">';
+
+});
