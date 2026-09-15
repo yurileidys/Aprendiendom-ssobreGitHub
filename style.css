@@ -21,7 +21,6 @@ h1{
     padding: 15px;
     border-radius: 50px;
     display: inline-block; 
-
 }
 
 .hola h1{
@@ -44,9 +43,56 @@ h1{
 
 .otrotexto p{
     font-style:italic;
-    
 }
 .otrotexto li{
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
+}
+
+#mensaje {
+    color: burlywood;
+    font-size: 20px;
+}
+
+.botones{
+   display: flex;
+   justify-content: center;
+    margin: 20px;
+    gap: 10px;
+   background-color: rgba(127, 255, 212, 0.185);
+   padding: 30px;
+}
+.texto h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(255, 127, 255, 0.185);
+}
+
+#btnalegria{
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: brown;
+}
+
+#btnfeliz{
+    border-radius: 50px;
+    font-size: 15px;
+    border-style: dotted;
+    border-color: rgb(255, 0, 55);
+    background-color: rgb(189, 174, 174);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btncolor{
+    background-color: rgb(41, 87, 173);
+    color: aliceblue;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btncolor.click{
+    background-color: rgb(236, 170, 126);
+    color: black;
+    border-style:hidden;
 }
